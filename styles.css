@@ -102,7 +102,7 @@ input{
 
 /* MEDIA QUERY */
 @media screen and (max-width:768px){
-/* REACTOVE */
+/* Responsive */
     .contenedorPadre{
         margin-left: 1rem;
         margin-top: 1rem;
