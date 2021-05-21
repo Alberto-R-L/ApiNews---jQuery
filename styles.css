@@ -25,6 +25,14 @@ body{
     
 }
 
+.contenedorPadre{
+    margin-left: 1rem;
+    margin-top: 1rem;
+    padding: 1vh;
+    width: 27vw;
+}
+
+
 button{
     border-style: none;
     box-shadow: 0 3px #999;
@@ -43,8 +51,8 @@ header{
     z-index: 2;
     background-color: rgb(204, 255, 102);
     width: 100vw;
-    height: 35px;
     display: flex;
+    align-items: baseline;
     justify-content: space-evenly;
 }
 
@@ -71,15 +79,37 @@ input{
     border-left: none;
     border-right: none;
     border-color: olivedrab;
+    margin: 1vw;
     
 }
 
-
+.inputContainer{
+    display: flex;
+    align-items: baseline;
+    margin: 2vw;
+}
 
 /* ANIMACION */
 
 @keyframes fade {
     from{opacity: 0;}
     to{opacity: 1;}
+    
+}
+
+
+
+
+/* MEDIA QUERY */
+@media screen and (max-width:768px){
+/* REACTOVE */
+    .contenedorPadre{
+        margin-left: 1rem;
+        margin-top: 1rem;
+        padding: 1vh;
+        width: 100vh;
+    }
+
+
     
 }

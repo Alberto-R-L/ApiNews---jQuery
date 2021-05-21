@@ -114,14 +114,13 @@ function reload(respuestaParse){
 
       divAbuelo.append(divPadre);
       divPadre.attr("class", "contenedorPadre");
-      divPadre.css("width", "27vw");
+      // divPadre.css("width", "27vw");
       divPadre.css("position","relative");
       divPadre.css("borderLeft", "solid");
       divPadre.css("borderColor", "burlyWood");
       divPadre.css("backgroundColor", "moccasin");
-      divPadre.css("padding", "1vh");
-      divPadre.css("marginLeft", "1rem");
-      divPadre.css("marginTop", "1rem");
+      // divPadre.css("padding", "1vh");
+
       divPadre.css("animation", "fade .5s");
 
       //divPadre.style.borderRadius = "5%";
@@ -179,7 +178,7 @@ function trimText(textoIntroducido){
 
 
 function scrollDown(){
-  window.scrollTo(0, document.body.scrollHeight);
+  $("html").scrollTop(document.body.scrollHeight);
 }
 
 
