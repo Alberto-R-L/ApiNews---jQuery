@@ -22,7 +22,8 @@ body{
     align-items: center;
     margin-bottom: 5vh;
     align-items: stretch;
-    
+    padding-top: 7vh;
+
 }
 
 .contenedorPadre{
@@ -38,6 +39,7 @@ button{
     box-shadow: 0 3px #999;
     border-radius: 10% 10% 30% 30%;
     transition-duration: 0.1s;
+    margin: 1vw;
 }
 button:active{
     border-style: none;
@@ -54,6 +56,7 @@ header{
     display: flex;
     align-items: baseline;
     justify-content: space-evenly;
+    height: 7vh;
 }
 
 
@@ -79,14 +82,24 @@ input{
     border-left: none;
     border-right: none;
     border-color: olivedrab;
-    margin: 1vw;
+    outline: none;
+    transition-duration: 0.2s;
+
     
+}
+
+input:focus{
+    background-color: rgba(255, 255, 255, 90%);;
 }
 
 .inputContainer{
     display: flex;
     align-items: baseline;
     margin: 2vw;
+}
+
+.bottom{
+    height: 5rem;
 }
 
 /* ANIMACION */
