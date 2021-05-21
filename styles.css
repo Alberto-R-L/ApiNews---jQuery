@@ -1,0 +1,85 @@
+html {
+    scroll-behavior: smooth;
+  }
+
+
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color:khaki;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.contenedorMaestro{
+    position:relative;
+    top: 3vh;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5vh;
+    align-items: stretch;
+    
+}
+
+button{
+    border-style: none;
+    box-shadow: 0 3px #999;
+    border-radius: 10% 10% 30% 30%;
+    transition-duration: 0.1s;
+}
+button:active{
+    border-style: none;
+    transform: translateY(2px);
+    box-shadow: 0 1px #999;
+}
+
+header{
+    padding: 1vh;
+    position: fixed;
+    z-index: 2;
+    background-color: rgb(204, 255, 102);
+    width: 100vw;
+    height: 35px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+.pageButton{
+    opacity: 0;
+    background-color: rgb(173, 214, 92);
+    height: 5vh;
+    width: 100vw;
+    position: fixed;
+    bottom: 0px;
+    border-radius: 0%;
+}
+
+.logo{
+    font-family: Monaco, Verdana, Arial;
+    font-size: 30px;
+    color: black;
+}
+
+input{
+    background-color: rgba(255, 255, 255, 50%);
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-color: olivedrab;
+    
+}
+
+
+
+/* ANIMACION */
+
+@keyframes fade {
+    from{opacity: 0;}
+    to{opacity: 1;}
+    
+}
